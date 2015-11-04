@@ -1,0 +1,40 @@
+.events-table {
+    clear: both;
+
+    &__event-dropdown {
+        width: 400px;
+
+        li {
+            overflow: hidden;
+            clear: both;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+    &__dropdown-list {
+        font-weight: 400;
+
+        > li > a {
+            padding-top: .1em;
+            padding-bottom: .1em;
+
+            &:hover,
+            &:focus {
+                color: #444;
+                text-shadow: none;
+                box-shadow: none;
+            }
+
+            &:hover { background-color: #efefef; }
+            &:focus { background: none; }
+        }
+
+        .uk-icon-check-square { color: @global-success-background; }
+        .uk-icon-square { color: @text-muted-color; }
+    }
+
+    &__dropdown-item-icon { margin-right: .25em; }
+    &__description-column { width: 300px; }
+    &__date { margin-bottom: 7px; }
+}

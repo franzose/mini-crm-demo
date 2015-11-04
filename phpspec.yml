@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: CrmDemo
+        psr4_prefix: CrmDemo
+        src_path: app

@@ -1,0 +1,16 @@
+.users-list {
+    &__user { margin-bottom: 2em; }
+    &__name { margin-bottom: .25em; }
+    &__data {
+        overflow: hidden;
+        margin: 0 0 .5em;
+    }
+
+    &__data-key { float: left; }
+    &__data-value {
+        float: right;
+        text-align: right;
+    }
+
+    &__data-value + &__data-key { clear: both; }
+}

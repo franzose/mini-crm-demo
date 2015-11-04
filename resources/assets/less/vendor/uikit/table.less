@@ -1,0 +1,24 @@
+@table-info-bg-color:           #d9edf7;
+@table-warning-bg-color:        #fcf8e3;
+@table-success-bg-color:        #dff0d8;
+@table-danger-bg-color:         #f2dede;
+
+.uk-table-info {
+    > td { background-color: @table-info-bg-color; }
+    .uk-table-hover &:hover > td { background-color: darken(@table-info-bg-color, 5%); }
+}
+
+.uk-table-warning {
+    > td { background-color: @table-warning-bg-color; }
+    .uk-table-hover &:hover > td { background-color: darken(@table-warning-bg-color, 5%); }
+}
+
+.uk-table-success {
+    > td { background-color: @table-success-bg-color; }
+    .uk-table-hover &:hover > td { background-color: darken(@table-success-bg-color, 5%); }
+}
+
+.uk-table-danger {
+    > td { background-color: @table-danger-bg-color; }
+    .uk-table-hover &:hover > td { background-color: darken(@table-danger-bg-color, 5%); }
+}
